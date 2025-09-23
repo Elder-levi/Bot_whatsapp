@@ -1,0 +1,16 @@
+{
+  "name": "bot_whatsapp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bot de WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "baileys": "^7.0.0-rc.3",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
