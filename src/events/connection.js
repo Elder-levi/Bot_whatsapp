@@ -1,22 +1,22 @@
 import qrcode from "qrcode-terminal"
-import { conectBot} from "@bot.js"
+import { ConectBot} from "../../bot.js"
 
 
 export function connectionEvents (sock) {
 
 sock.ev.on("connection.update" , (update)=>{
-    const { connction , qr } = update
+    const { connection , qr } = update
     if(qr){
 
         console.log("Escaneia o Qr code ---->>>")
         qrcode.generate(qr , {small:true});
     }
     
-    if(connction == "close")
+    if(connection == "close")
     {
     console.log("  **** Conexao Fechada ****")
-    conectBot();
-    }else if(connction == "open"){
+    ConectBot();
+    }else if(connection == "open"){
         console.log("Bot conectado!!")
     }
     

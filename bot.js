@@ -1,7 +1,7 @@
 import makeWASocket from "baileys";
-import { authConfig  } from "./src/config/auth";
-import { connectionEvents } from "./src/events/connection";
-import { messageEvents } from "./src/events/mensages";
+import { authConfig  } from "./src/config/auth.js";
+import { connectionEvents } from "./src/events/connection.js";
+import { messageEvents } from "./src/events/mensages.js";
 
 
 export async function  ConectBot() {

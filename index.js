@@ -1,3 +1,3 @@
-import {ConectBot} from "./bot"
+import {ConectBot} from "./bot.js"
 
 ConectBot();
