@@ -12,7 +12,6 @@ app.use(express.urlencoded({ extended: false}))
 const GenAI = new GoogleGenerativeAI(process.env.CHAVE_API)
 
 
-
 app.post("/Zapzap" , async (req , res) =>{
 
     try {
