@@ -2,10 +2,10 @@ const express = require("express")
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 require("dotenv").config();
-const {testarGemini} = require ("./Coneccao")
+const {testarGemini, main} = require ("./Confiig/Coneccao")
 
 
-testarGemini();
+main();
 const app = express()
 app.use(express.urlencoded({ extended: false}))
 

@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Elder-levi/Bot_whatsapp#readme",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "qrcode-terminal": "^0.12.0",
